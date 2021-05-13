@@ -1,0 +1,66 @@
+site_name: Sunday
+
+theme:
+  name: material
+  custom_dir: overrides
+  feature:
+  - navigation.expand
+  - navigation.instant
+  - navigation.indexes
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  logo: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/custom.css
+
+nav:
+- Overview:
+  - About: index.md
+  - Features:
+    - Detailed Error Responses via Problems: problems.md
+    - Efficient Notifications via Server-Sent Events: server-sent-events.md
+    - Dynamic Content-Type Negotation: dynamic-content-type-negotiation.md
+    - Alternative Request/Response Encodings: alternative-request-response-encodings.md
+    - Date/Time Data Types: date-time-data-types.md
+    - Simple & Beautiful Code: client-code.md
+- Generator: '!include ./generator/mkdocs.yml'
+- Client Libraries:
+  - Swift Package: '!include ./sunday-swift/mkdocs.yml'
+  - Kotlin Library: '!include ./sunday-kotlin/mkdocs.yml'
+  - TypeScript Package: '!include ./sunday-js/mkdocs.yml'
+
+repo_url: https://github.com/outfoxx
+edit_uri: ""
+
+copyright: Copyright &copy; 2021 Outfox, Inc.
+
+markdown_extensions:
+- admonition
+- attr_list
+- def_list
+- footnotes
+- pymdownx.caret
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.tabbed
+
+plugins:
+- monorepo
+- search
+- macros
+
+
+extra:
+  generator:
+    latest_release: 1.0.0
+  sunday:
+    swift:
+      latest_version: 1.0.0-alpha.6
+    kotlin:
+      latest_version: 1.0.0-SNAPSHOT
+    typescript:
+      latest_version: 1.0.9

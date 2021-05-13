@@ -1,0 +1,10 @@
+site_name: sunday-swift
+
+theme:
+  name: material
+  custom_dir: ../overrides
+
+nav:
+- Overview: index.md
+
+repo_url: https://github.com/outfoxx/sunday

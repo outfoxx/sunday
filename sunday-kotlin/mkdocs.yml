@@ -1,0 +1,11 @@
+site_name: sunday-kotlin
+
+theme:
+  name: material
+  custom_dir: ../overrides
+
+nav:
+- Overview: index.md
+- API: api.md
+
+repo_url: https://github.com/outfoxx/sunday-kotlin
