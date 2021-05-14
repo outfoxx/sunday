@@ -64,7 +64,7 @@ Service methods that are marked with either of Sunday's Server-Sent Events annot
 
 #### EventSource
 
-Service methods marked with the [EventSource](../raml-extensions#eventsource-server-sent-events) annotation are generated returning an `EventSource`. 
+Service methods marked with the [EventSource](raml-extensions.md#eventsource-server-sent-events) annotation are generated returning an `EventSource`. 
 
 Sunday's `EventSource` is a work-alike to the [EventSource Web API](https://developer.mozilla.org/en-US/docs/Web/API/EventSource).
 
@@ -125,7 +125,7 @@ Sunday's `EventSource` is a work-alike to the [EventSource Web API](https://deve
 
 #### EventStream
 
-Service methods marked with the [EventStream](../raml-extensions#eventstream-server-sent-events) annotation return a Kotlin `Flow<T>` that is parameterized to the type of event(s) the method produces.
+Service methods marked with the [EventStream](raml-extensions.md#eventstream-server-sent-events) annotation return a Kotlin `Flow<T>` that is parameterized to the type of event(s) the method produces.
 
 [Learn about Kotlin coroutines Flow](https://kotlinlang.org/docs/flow.html)
 
@@ -189,7 +189,7 @@ Service methods marked with the [EventStream](../raml-extensions#eventstream-ser
 Service methods can be flagged as "request" or "response" only using Sunday's RAML extension annoations.  These flags will generate service methods that return a platform specific request or response instead of the value defined by the RAML API definition.
 
 !!! note
-	Platform requests in [Sunday (Kotlin)](../../sunday-kotlin) library are `okhttp3.Request` instances and platform responses are `okhttp3.Response`; this is due to the library being built upon [okhttp](https://square.github.io/okhttp).
+	Platform requests in [Sunday (Kotlin)](../sunday-kotlin/index.md) library are `okhttp3.Request` instances and platform responses are `okhttp3.Response`; this is due to the library being built upon [okhttp](https://square.github.io/okhttp).
 
 
 #### Request Only
@@ -336,6 +336,6 @@ Sunday will include an `Accept` header equivalent, in elements and order, to tha
 
 ## Generator Options
 
-In addition to the [options supported by all Kotlin code generations targets](../target-kotlin-common-features#generator-options), this target also supports the following options:
+In addition to the [options supported by all Kotlin code generations targets](target-kotlin-common-features.md#generator-options), this target also supports the following options:
 
 None

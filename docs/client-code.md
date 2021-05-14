@@ -3,7 +3,7 @@ title: Sunday - Features - Simple & Beautiful Code
 ---
 # Simple & Beautiful Code
 
-Sunday client libraries are designed to enable Sunday's [Generator](../sunday-generator) to produce client APIs that are comprised of a small amount of code that is efficient and eschews dynamic code (i.e. reflection, proxies, etc.) for static generation.
+Sunday client libraries are designed to enable Sunday's [Generator](generator/index.md) to produce client APIs that are comprised of a small amount of code that is efficient and eschews dynamic code (i.e. reflection, proxies, etc.) for static generation.
 
 ## Reduced Regeneration
 

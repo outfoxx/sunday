@@ -31,7 +31,7 @@ import Sunday
 
 	While you can use Sunday (Swift) to write REST clients manually Sunday is most useful when generating clietns from API definitions.
 	
-	[Learn about Swift Generator](../sunday-generator)
+	[Learn about Swift Generator](../generator/index.md)
 
 
 License

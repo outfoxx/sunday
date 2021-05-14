@@ -406,7 +406,7 @@ RAML union types are mapped to the "nearest common ancestor" of all individual t
 
 ## Generated Problem Types
 
-For each problem defined & referenced using Sunday's [problem annotations](../raml-extensions#problem-annotations), a Kotlin `Exception` class is generated. Generating exceptions allows servers to throw a specific problem and clients to catch specific problems.
+For each problem defined & referenced using Sunday's [problem annotations](raml-extensions.md#problem-annotations), a Kotlin `Exception` class is generated. Generating exceptions allows servers to throw a specific problem and clients to catch specific problems.
 
 Custom properties can be defined for problem types and they are added as simple Kotlin properties on the generated exception class.
 
@@ -449,7 +449,7 @@ Custom properties can be defined for problem types and they are added as simple 
 
 ## Generator Options
 
-In addition to the [options supported by all code generations targets](../target-common-features#generator-options), this target also supports the following options:
+In addition to the [options supported by all code generations targets](target-common-features.md#generator-options), this target also supports the following options:
 
 __Default Package Name__
 :   Specifies the default Kotlin package name for model types and service types.

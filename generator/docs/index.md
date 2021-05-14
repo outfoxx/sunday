@@ -450,4 +450,4 @@ The plugin allow you to create multiple "generations" each with their distinct s
     }
 	```
 !!! tip
-	The above examples may not show all of the options supported by the Gradle generator plugin. For a detailed list of options see check the following documentation pages [Options for All Targets](target-common-features#generator-options), [Options for Kotlin Targets](target-kotlin-common-features#generator-options),  [Options for the Kotlin/Sunday Target](kotlin-sunday#generator-options), and [Options for the Kotlin/JAX-RS Target](kotlin-jaxrs#generator-options)
+	The above examples may not show all of the options supported by the Gradle generator plugin. For a detailed list of options see check the following documentation pages [Options for All Targets](target-common-features.md#generator-options), [Options for Kotlin Targets](target-kotlin-common-features.md#generator-options),  [Options for the Kotlin/Sunday Target](kotlin-sunday.md#generator-options), and [Options for the Kotlin/JAX-RS Target](kotlin-jaxrs.md#generator-options)

@@ -94,7 +94,9 @@ Generates the type nested into another specified type with an explicitly specifi
 	This annotation is ignored for any language that does not support nested types. 
 
 !!! Example
+	
 	Generate an enum `Kind` inside the type `Device`
+
 	```yaml
 	%RAML 1.0
 	title: Test API
@@ -163,7 +165,9 @@ Generates the type nested into another specified type with an explicitly specifi
 A type flagged as patchable has special support for `PATCH` operations. When used in a `PATCH` method, a nested `Patch` type is generated that supports simple JSON patch/merge style updates.
 
 !!! example
+
 	Generate `Update` type with patch support.
+
 	```yaml
 	%RAML 1.0
 	title: Test API
@@ -272,6 +276,7 @@ Specifies the property name of a discriminator property in the owning object tha
 
 
 !!! example
+
     ```yaml
 	%RAML 1.0
 	title: Test API
@@ -330,6 +335,7 @@ Polymorphic types that are marked as externally discriminated are allowed to be 
 	This annotation must be used in conjuction with [External Discriminator Property Name](#external-discriminator-property-name)
 
 !!! example
+
     ```yaml
 	%RAML 1.0
 	title: Test API
@@ -428,7 +434,8 @@ This annotation works similarly to the way `baseUriParameters` works for `baseUr
 Declares global problem types to be used throughout the API. The value of this annotation is a map of problem type ids to problem type details.
 
 !!! example "Problem Declaration"
-	``` { .yaml .annotate }
+
+	```yaml
 	%RAML 1.0
 	title: Test API
 	uses:
@@ -462,6 +469,7 @@ Problem details require a `type` property that must be a URI. Sunday generates t
 Adds each referenced problem to the range of responses the method is able to generate.
 
 !!! example
+
 	```yaml
 	%RAML 1.0
 	title: Test API
@@ -985,6 +993,7 @@ The following methods are supported:
 
 `discriminated`
 :   The method body's type should be a RAML union of possible event types. Sunday will use each type's discriminator value to map event type names to concrete value types. If a type has not explicitly set its `discriminatorValue` property the RAML type name will be used.
+	
 	!!! example
 		Generate a `connectEvents` service method that will produce either `Opened` or `Closed` event values. Using the discriminator of each specified type, events with the name `opened` will be mapped to the `Opened` type and events with the name `closed` to the `Closed` type.
 	    ```yaml

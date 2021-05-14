@@ -348,7 +348,7 @@ This feature allows users to explicitly handle (in server stubs) or explicitly s
 
 ## Generator Options
 
-In addition to the [options supported by all Kotlin code generations targets](../target-kotlin-common-features#generator-options), this target also supports the following options:
+In addition to the [options supported by all Kotlin code generations targets](target-kotlin-common-features.md#generator-options), this target also supports the following options:
 
 __Generation Mode__
 :   Choose whether the to target client or server generation.

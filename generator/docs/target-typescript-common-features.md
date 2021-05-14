@@ -344,7 +344,7 @@ The generator defaults to adding JacksonJS JSON serialization annotations to the
     ```
 
 !!! note
-    The generation of JacksonJS annotations can be disabled via the [JacksonJS Annotations - Type Generation Option](#type-generation-options).
+    The generation of JacksonJS annotations can be disabled via the [JacksonJS Annotations - Type Generation Option](#generator-options).
 
 !!! danger
     Disabling JacksonJS will most likely require a custom (de)serialization implementation to support the full feature set.
@@ -443,7 +443,7 @@ RAML union types are mapped to the "nearest common ancestor" of all individual t
 
 ## Generator Options
 
-In addition to the [options supported by all code generations targets](../target-common-features#generator-options), this target also supports the following options:
+In addition to the [options supported by all code generations targets](target-common-features.md#generator-options), this target also supports the following options:
 
 __Type Generation Options__
 :   Enable/Disable TypeScript type generation options.

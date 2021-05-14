@@ -500,7 +500,7 @@ RAML union types are mapped to the "nearest common ancestor" of all individual t
 
 ## Generated Problem Types
 
-For each problem defined & referenced using Sunday's Sunday's [problem annotations](../raml-extensions#problem-annotations), a Swift `Error` class is generated. Generating exceptions allows servers to throw a specific problem and clients to catch specific problems.
+For each problem defined & referenced using Sunday's Sunday's [problem annotations](raml-extensions.md#problem-annotations), a Swift `Error` class is generated. Generating exceptions allows servers to throw a specific problem and clients to catch specific problems.
 
 Custom properties can be defined for problem types and they are added as simple Swift properties on the generated error class.
 
@@ -569,7 +569,7 @@ Custom properties can be defined for problem types and they are added as simple 
 
 ## Generator Options
 
-In addition to the [options supported by all code generations targets](../target-common-features#generator-options), this target also supports the following options:
+In addition to the [options supported by all code generations targets](target-common-features.md#generator-options), this target also supports the following options:
 
 __Type Generation Options__
 :   Enable/Disable Swift type generation options.

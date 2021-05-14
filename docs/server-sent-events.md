@@ -10,7 +10,7 @@ Sunday supports notifications systems via Server-Sent Events as a more efficent 
 
 ## RAML
 
-The Sunday [Generator](../sunday-generator) extends RAML via annotations to support easily declaring methods that produce _Server-Sent Events_. Events are defined as RAML types and therefore types are generated in each language to easily consume strongly type events in clients and produce events in server implmentations.
+The Sunday [Generator](generator/index.md) extends RAML via annotations to support easily declaring methods that produce _Server-Sent Events_. Events are defined as RAML types and therefore types are generated in each language to easily consume strongly type events in clients and produce events in server implmentations.
 
 ## Clients
 
@@ -18,4 +18,4 @@ Sunday client libraries ensure that an [EventSource](https://developer.mozilla.o
 
 ## Servers
 
-Sunday server implementations rely on the underlying frameworks to support [Server-Sent Event](). Events types are generated to easily produce  events using the server framework.
+Sunday server implementations rely on the underlying frameworks to support Server-Sent Events. Events types are generated to easily produce  events using the server framework.

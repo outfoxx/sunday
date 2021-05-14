@@ -69,7 +69,7 @@ Service methods that are marked with either of Sunday's Server-Sent Events annot
 
 #### EventSource
 
-Service methods marked with the [EventSource](../raml-extensions#eventsource-server-sent-events) annotation are generated returning an [EventSource Web API](https://developer.mozilla.org/en-US/docs/Web/API/EventSource). 
+Service methods marked with the [EventSource](raml-extensions.md#eventsource-server-sent-events) annotation are generated returning an [EventSource Web API](https://developer.mozilla.org/en-US/docs/Web/API/EventSource). 
 
 ??? example "Example Server-Sent Events Service Method Generation (EventSource)"
     __RAML API Definition__
@@ -129,7 +129,7 @@ Service methods marked with the [EventSource](../raml-extensions#eventsource-ser
 
 #### EventStream
 
-Service methods marked with the [EventStream](../raml-extensions#eventstream-server-sent-events) annotation return a RxJS `Observable<T>` that is parameterized to the type of event(s) the method produces.
+Service methods marked with the [EventStream](raml-extensions.md#eventstream-server-sent-events) annotation return a RxJS `Observable<T>` that is parameterized to the type of event(s) the method produces.
 
 ??? example "Example Server-Sent Events Service Method Generation (EventStream)"
     __RAML API Definition__
@@ -201,7 +201,7 @@ Service methods marked with the [EventStream](../raml-extensions#eventstream-ser
 Service methods can be flagged as "request" or "response" only using Sunday's RAML extension annoations.  These flags will generate service methods that return a platform specific request or response instead of the value defined by the RAML API definition.
 
 !!! note
-    Platform requests in [Sunday (TypeScript)](../../sunday-typescript) library are `Request` objects and platform responses are `Response` objects both types are from the [Fetch Web API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
+    Platform requests in [Sunday (TypeScript)](../sunday-js/index.md) library are `Request` objects and platform responses are `Response` objects both types are from the [Fetch Web API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 
 
 #### Request Only
@@ -355,6 +355,6 @@ Sunday will include an `Accept` header equivalent, in elements and order, to tha
 
 ## Generator Options
 
-In addition to the [options supported by all TypeScript code generations targets](../target-typescript-common-features#generator-options), this target also supports the following options:
+In addition to the [options supported by all TypeScript code generations targets](target-typescript-common-features.md#generator-options), this target also supports the following options:
 
 None

@@ -48,7 +48,7 @@ Sunday is delivered as a standard Maven library from Maven Central.
 
     While you can use Sunday (Kotlin) to write REST clients manually Sunday is most useful when generating clietns from API definitions.
 
-    [Learn about Sunday Generator](../sunday-generator)
+    [Learn about Sunday Generator](../generator/index.md)
 
 
 License

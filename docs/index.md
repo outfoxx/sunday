@@ -3,7 +3,7 @@ title: Sunday - About
 ---
 # What is Sunday?
 
-Sunday is a code generator and family of client libraries for implementing _generated_ REST clients and server stubs from [RAML](../sunday-generator/why-raml).
+Sunday is a code generator and family of client libraries for implementing _generated_ REST clients and server stubs from [RAML](generator/why-raml.md).
 
 ## Features
 
@@ -20,7 +20,7 @@ The key features Sunday provides:
 
 ## Generator
 
-The binding technology for Sunday is the [Generator](../sunday-generator) which generates clients for all of Sunday's client library implementations.
+The binding technology for Sunday is the [Generator](generator/index.md) which generates clients for all of Sunday's client library implementations.
 
 In addition, the generator also supports generating server and client interfaces for JAX-RS that are customizable for a number of implementations (e.g [Quarkus](https://quarkus.io)).
 
@@ -28,11 +28,11 @@ In addition, the generator also supports generating server and client interfaces
 
 Sunday provides dedicated client libraries for the following languages:
 
-* [Swift client library for Apple platforms](../sunday-swift) 
+* [Swift client library for Apple platforms](sunday-swift/index.md) 
 	* macOS , iOS , iPadOS , WatchOS
-* [Kotlin client library for JVM platforms](../sunday-kotlin)
+* [Kotlin client library for JVM platforms](sunday-kotlin/index.md)
 	* Java, Android
-* [TypeScript client library for Web platforms](../sunday-typescript)
+* [TypeScript client library for Web platforms](sunday-js/index.md)
 	* Browsers (Chrome , Safari , Firefox)
 
 ### Concurrency

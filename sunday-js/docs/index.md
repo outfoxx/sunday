@@ -25,7 +25,7 @@ Current Release
 
 	While you can use Sunday (TypeScript) to write REST clients manually Sunday is most useful when generating clietns from API definitions.
 	
-	[Learn about Sunday Generator](../sunday-generator)
+	[Learn about Sunday Generator](../generator/index.md)
 
 
 License

@@ -14,7 +14,7 @@ RAML's extensions are defined in RAML which makes them easy to understand and mo
 
 RAML's extensibility makes it perfect for Sunday which defines numerous extensions to make features like inhertance, nested types, and declaring and using problem response definitions easy to implement.
 
-* [Sunday's RAML extensions](../raml-extensions).
+* [Sunday's RAML extensions](raml-extensions.md).
 
 
 
