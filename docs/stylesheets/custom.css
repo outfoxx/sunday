@@ -10,3 +10,16 @@
 .md-content a {
 	font-weight: bolder;
 }
+
+.git-repo-lockup {
+	line-height: 1.5rem;
+	vertical-align: middle;
+	font-size: 0.9rem;
+	float: right;
+	border: thin solid currentColor;
+	padding: 7px;
+}
+
+.git-repo-lockup .twemoji {
+	font-size: 1.1rem;
+}

@@ -1,7 +1,7 @@
 ---
 title: Sunday (Swift)
 ---
-# Sunday (Swift)
+# Sunday (Swift) [outfoxx/sunday-swift :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-swift){ .git-repo-lockup }
 
 A Sunday client library implementation written in Swift and supporting Apple platforms including macOS, iOS, iPadOS, and watchOS.
 

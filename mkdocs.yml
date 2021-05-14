@@ -33,9 +33,6 @@ nav:
   - Kotlin Library: '!include ./sunday-kotlin/mkdocs.yml'
   - TypeScript Package: '!include ./sunday-js/mkdocs.yml'
 
-repo_url: https://github.com/outfoxx
-edit_uri: ""
-
 copyright: Copyright &copy; 2021 Outfox, Inc.
 
 markdown_extensions:
@@ -45,6 +42,7 @@ markdown_extensions:
 - footnotes
 - pymdownx.caret
 - pymdownx.details
+- pymdownx.emoji:
 - pymdownx.superfences
 - pymdownx.tabbed
 

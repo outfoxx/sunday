@@ -1,7 +1,9 @@
 ---
 title: Sunday - Generator
 ---
-# Overview
+# Sunday Generator [outfoxx/sunday-generator :fontawesome-brands-git-alt:{ . }](https://github.com/outfoxx/sunday-generator){ .git-repo-lockup }
+
+---
 
 The Sunday Generator is a Kotlin / Java based code generator that generates client APIs targeted for Sunday implementations in a number of languages as well as Kotlin / JAX-RS clients & servers from [RAML](why-raml.md) API definitions.
 

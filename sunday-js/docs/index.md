@@ -1,7 +1,7 @@
 ---
 title: Sunday (TypeScript)
 ---
-# Sunday (TypeScript)
+# Sunday (TypeScript) [outfoxx/sunday-js :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-js){ .git-repo-lockup }
 
 A Sunday client library implementation written in TypeScript, supporting modern web browsers.
 

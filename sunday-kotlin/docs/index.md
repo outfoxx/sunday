@@ -1,7 +1,7 @@
 ---
 title: Sunday (Kotlin)
 ---
-# Sunday (Kotlin)
+# Sunday (Kotlin) [outfoxx/sunday-kt :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-kt){ .git-repo-lockup }
 
 A Sunday client library implementation written in Kotlin and supporting the JVM and Android.
 
