@@ -55,6 +55,7 @@ plugins:
 
 
 extra:
+  homepage: https://outfoxx.io
   generator:
     latest_release: 1.0.0
   sunday:
