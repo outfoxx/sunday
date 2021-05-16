@@ -1,48 +1,10 @@
 ---
 title: Sunday (Kotlin)
 ---
+
 # Sunday (Kotlin) [outfoxx/sunday-kt :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-kt){ .git-repo-lockup }
 
 A Sunday client library implementation written in Kotlin and supporting the JVM and Android.
-
-## Installation
-
-Sunday is delivered as a standard Maven library from Maven Central.
-
-=== "Gradle (Kotlin DSL)"
-
-	```kotlin
-
-	dependencies {
-	  implementation("io.outfoxx:sunday:{{ sunday.kotlin.latest_version }}")
-	}
-
-	```
-
-=== "Gradle (Groovy DSL)"
-
-	```groovy
-
-	dependencies {
-	  implementation 'io.outfoxx:sunday:{{ sunday.kotlin.latest_version }}'
-	}
-
-	```
-
-=== "Maven"
-
-	```xml
-    <dependencies>
-        <dependency>
-            <groupId>io.outfoxx</groupId>
-            <artifactId>sunday</artifactId>
-            <version>{{ sunday.kotlin.latest_version }}</version>
-        </dependency>
-    </dependencies>
-	```
-
-## Usage
-
 
 !!! tip
 
@@ -50,9 +12,45 @@ Sunday is delivered as a standard Maven library from Maven Central.
 
     [Learn about Sunday Generator](../generator/index.md)
 
+## Installation
 
-License
--------
+Sunday is delivered as a standard Maven library from Maven Central.
+
+=== "Gradle (Kotlin DSL)"
+
+    ```kotlin
+
+    dependencies {
+      implementation("io.outfoxx:sunday:{{ sunday.kotlin.latest_version }}")
+    }
+
+    ```
+
+=== "Gradle (Groovy DSL)"
+
+    ```groovy
+
+    dependencies {
+      implementation 'io.outfoxx:sunday:{{ sunday.kotlin.latest_version }}'
+    }
+
+    ```
+
+=== "Maven"
+
+    ```xml
+    <dependencies>
+        <dependency>
+            <groupId>io.outfoxx</groupId>
+            <artifactId>sunday</artifactId>
+            <version>{{ sunday.kotlin.latest_version }}</version>
+        </dependency>
+    </dependencies>
+    ```
+
+## Usage
+
+## License
 
     Copyright 2015 Outfox, Inc.
 
