@@ -60,7 +60,7 @@ extra:
     latest_release: 1.0.0
   sunday:
     swift:
-      latest_version: 1.0.0-alpha.6
+      latest_version: 1.0.0-beta.0
     kotlin:
       latest_version: 1.0.0-SNAPSHOT
     typescript:

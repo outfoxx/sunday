@@ -21,7 +21,7 @@ Sunday is delivered as a standard Maven library from Maven Central.
     ```kotlin
 
     dependencies {
-      implementation("io.outfoxx:sunday:{{ sunday.kotlin.latest_version }}")
+      implementation("io.outfoxx.sunday:sunday:{{ sunday.kotlin.latest_version }}")
     }
 
     ```
@@ -31,7 +31,7 @@ Sunday is delivered as a standard Maven library from Maven Central.
     ```groovy
 
     dependencies {
-      implementation 'io.outfoxx:sunday:{{ sunday.kotlin.latest_version }}'
+      implementation 'io.outfoxx.sunday:sunday:{{ sunday.kotlin.latest_version }}'
     }
 
     ```
@@ -41,7 +41,7 @@ Sunday is delivered as a standard Maven library from Maven Central.
     ```xml
     <dependencies>
         <dependency>
-            <groupId>io.outfoxx</groupId>
+            <groupId>io.outfoxx.sunday</groupId>
             <artifactId>sunday</artifactId>
             <version>{{ sunday.kotlin.latest_version }}</version>
         </dependency>
