@@ -57,11 +57,11 @@ plugins:
 extra:
   homepage: https://outfoxx.io
   generator:
-    latest_release: 1.0.0
+    latest_release: v1.1.0-alpha.0
   sunday:
     swift:
-      latest_version: 1.0.0-beta.0
+      latest_version: 1.0.0-beta.1
     kotlin:
-      latest_version: 1.0.0-SNAPSHOT
+      latest_version: v1.0.0-beta.0
     typescript:
-      latest_version: 1.0.9
+      latest_version: v1.1.0-alpha.3
