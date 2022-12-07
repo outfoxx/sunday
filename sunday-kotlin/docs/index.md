@@ -1,16 +1,30 @@
 ---
-title: Sunday (Kotlin)
+title: Sunday - Kotlin
 ---
 
-# Sunday (Kotlin) [outfoxx/sunday-kt :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-kt){ .git-repo-lockup }
+# Sunday <font size="3">__KOTLIN__</font> [outfoxx/sunday-kt   :fontawesome-brands-github:](https://github.com/outfoxx/sunday-kt){ .git-repo-lockup }
 
 A Sunday client library implementation written in Kotlin and supporting the JVM and Android.
 
+---
+
 !!! tip
 
-    While you can use Sunday (Kotlin) to write REST clients manually Sunday is most useful when generating clietns from API definitions.
+    While you can use Sunday (Kotlin) to write REST clients manually, Sunday is most useful when generating clietns from API
+    definitions using the Sunday Generator.
 
     [Learn about Sunday Generator](../generator/index.md)
+
+## Implementations
+
+Sunday Kotlin is modularized to allow for multiple implementations. Currently the following implementations are available:
+
+:fontawesome-brands-java: __JDK HTTP Client__
+:   Uses the native [JDK 11 HTTP Client](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/package-summary.html) to execute HTTP requests.
+
+:fontawesome-regular-square: __Square OkHttp__
+:   Uses Square's [OkHttp](https://square.github.io/okhttp/) library (version 4) to execute HTTP requests. OkHttp supports easy configuration of advanced features like
+    certificate pinning and configuration interceptors.
 
 ## Installation
 
@@ -21,7 +35,11 @@ Sunday is delivered as a standard Maven library from Maven Central.
     ```kotlin
 
     dependencies {
-      implementation("io.outfoxx.sunday:sunday:{{ sunday.kotlin.latest_version }}")
+      // If using JDK implementation
+      implementation("io.outfoxx.sunday:sunday-jdk:{{ client.kotlin.latest_release }}")
+
+      // If using OkHttp implementation
+      implementation("io.outfoxx.sunday:sunday-okhttp:{{ client.kotlin.latest_release }}")
     }
 
     ```
@@ -31,7 +49,11 @@ Sunday is delivered as a standard Maven library from Maven Central.
     ```groovy
 
     dependencies {
-      implementation 'io.outfoxx.sunday:sunday:{{ sunday.kotlin.latest_version }}'
+      // If using JDK implementation
+      implementation 'io.outfoxx.sunday:sunday-jdk:{{ client.kotlin.latest_release }}'
+
+      // If using OkHttp implementation
+      implementation 'io.outfoxx.sunday:sunday-okhttp:{{ client.kotlin.latest_release }}'
     }
 
     ```
@@ -42,8 +64,14 @@ Sunday is delivered as a standard Maven library from Maven Central.
     <dependencies>
         <dependency>
             <groupId>io.outfoxx.sunday</groupId>
-            <artifactId>sunday</artifactId>
-            <version>{{ sunday.kotlin.latest_version }}</version>
+
+            <!-- If using JDK implementation -->
+            <artifactId>sunday-jdk</artifactId>
+
+            <!-- If using OkHttp implementation -->
+            <artifactId>sunday-okhttp</artifactId>
+
+            <version>{{ client.kotlin.latest_release }}</version>
         </dependency>
     </dependencies>
     ```

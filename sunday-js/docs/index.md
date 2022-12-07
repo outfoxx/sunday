@@ -1,8 +1,8 @@
 ---
-title: Sunday (TypeScript)
+title: Sunday - TypeScript
 ---
 
-# Sunday (TypeScript) [outfoxx/sunday-js :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-js){ .git-repo-lockup }
+# Sunday <font size="3">__TYPESCRIPT__</font> [outfoxx/sunday-js  :fontawesome-brands-github:](https://github.com/outfoxx/sunday-js){ .git-repo-lockup }
 
 A Sunday client library implementation written in TypeScript, supporting modern web browsers and similar JavaScript environments.
 
@@ -10,7 +10,8 @@ A Sunday client library implementation written in TypeScript, supporting modern 
 
 !!! tip
 
-    While you can use Sunday (TypeScript) to write REST clients manually Sunday is most useful when generating clietns from API definitions.
+    While you can use Sunday (TypeScript) to write REST clients manually, Sunday is most useful when generating clietns from API
+    definitions using the Sunday Generator.
 
     [Learn about Sunday Generator](../generator/index.md)
 
@@ -24,7 +25,7 @@ Package Name
 
 Current Release
 
-        {{ sunday.typescript.latest_version }}
+    {{ client.typescript.latest_release }}
 
 ## Usage
 

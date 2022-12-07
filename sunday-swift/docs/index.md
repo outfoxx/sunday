@@ -1,8 +1,8 @@
 ---
-title: Sunday (Swift)
+title: Sunday - Swift
 ---
 
-# Sunday (Swift) [outfoxx/sunday-swift :fontawesome-brands-git-alt:](https://github.com/outfoxx/sunday-swift){ .git-repo-lockup }
+# Sunday <font size="3">__SWIFT__</font> [outfoxx/sunday-swift :fontawesome-brands-github:](https://github.com/outfoxx/sunday-swift){ .git-repo-lockup }
 
 A Sunday client library implementation written in Swift and supporting Apple platforms including macOS, iOS, iPadOS, and watchOS.
 
@@ -10,7 +10,8 @@ A Sunday client library implementation written in Swift and supporting Apple pla
 
 !!! tip
 
-    While you can use Sunday (Swift) to write REST clients manually Sunday is most useful when generating clietns from API definitions.
+    While you can use Sunday (Swift) to write REST clients manually Sunday is most useful when generating clietns from API
+    definitions using the Sunday Generator.
 
     [Learn about Swift Generator](../generator/index.md)
 
@@ -24,7 +25,7 @@ Package URL
 
 Current Release
 
-    {{ sunday.swift.latest_version }}
+    {{ client.swift.latest_release }}
 
 ## Usage
 

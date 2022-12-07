@@ -1,6 +1,8 @@
-# Sunday 🙏 The framework of REST
+Sunday 🙏 The framework of REST
+===
 
----
+The framework of REST for Kotlin, Swift & TypeScript with support for
+advanced HTTP features and generated clients.
 
 ### [Read the Documentation](https://outfoxx.github.io/sunday)
 

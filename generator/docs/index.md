@@ -1,7 +1,7 @@
 ---
 title: Sunday - Generator
 ---
-# Sunday Generator [outfoxx/sunday-generator :fontawesome-brands-git-alt:{ . }](https://github.com/outfoxx/sunday-generator){ .git-repo-lockup }
+# Sunday <font size="2">__GENERATOR__</font> [outfoxx/sunday-generator :fontawesome-brands-github:{ . }](https://github.com/outfoxx/sunday-generator){ .git-repo-lockup }
 
 ---
 

@@ -7,12 +7,22 @@ theme:
   - navigation.expand
   - navigation.instant
   - navigation.indexes
+  - navigation.tracking
   - navigation.top
   - search.suggest
   - search.highlight
   logo: assets/logo.svg
   icon:
     repo: fontawesome/brands/github
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
 
 extra_css:
   - stylesheets/custom.css
@@ -39,14 +49,16 @@ markdown_extensions:
 - admonition
 - attr_list
 - def_list
+- md_in_html
 - footnotes
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.superfences
 - pymdownx.caret
 - pymdownx.details
 - pymdownx.emoji:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
-- pymdownx.superfences
-- pymdownx.tabbed
 
 plugins:
 - monorepo
@@ -57,11 +69,11 @@ plugins:
 extra:
   homepage: https://outfoxx.io
   generator:
-    latest_release: v1.1.0-alpha.0
-  sunday:
+    latest_release: 1.1.0-beta.2
+  client:
     swift:
-      latest_version: 1.0.0-beta.1
+      latest_release: 1.0.0-beta.13
     kotlin:
-      latest_version: v1.0.0-beta.0
+      latest_release: 1.0.0-beta.18
     typescript:
-      latest_version: v1.1.0-alpha.3
+      latest_release: 1.1.0-beta.5
